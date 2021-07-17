@@ -1,0 +1,33 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.boxes .box-left {
+    background-color: blue;
+    color: #fff;
+
+}
+
+.boxes .box-right {
+    background-color: green;
+    color: #fff;
+
+}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1400px) {}
+
+@media (max-width: 768px) {
+    .boxes .box-right {
+        color: red;
+    }
+}
